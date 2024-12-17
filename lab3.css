@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: #fff;
+  }
+  .sidebar {
+    width: 200px;
+    background-color: #202020;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+  }
+  .sidebar a {
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .sidebar a:hover {
+    background-color: #383838;
+  }
+  .main-content {
+    margin-left: 200px;
+    padding: 20px;
+  }
+  .search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+    padding: 10px 20px;
+  }
+  .search-bar input {
+    align-items: center;
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+  }
+  .search-bar .icons {
+    display: flex;
+    align-items: center;
+  }
+  .search-bar .icons i {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  .filter-buttons button {
+    background-color: #383838;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .filter-buttons button:hover {
+    background-color: #505050;
+  }
+  .search-bar {
+    margin-bottom: 1rem; /* Add some margin bottom */
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 0.5rem 1rem; /* Add some padding */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 20px; /* Add a rounded corner */
+    width: 300px; /* Set a fixed width */
+  }
+  
+  .search-bar button {
+    margin-left: 0.5rem; /* Add some margin left */
+    background-color: #f7f7f7; /* Set a light gray background color */
+    padding: 0.5rem 1rem; /* Add some padding */
+    border: none; /* Remove the border */
+    border-radius: 20px; /* Add a rounded corner */
+    cursor: pointer; /* Add a pointer cursor */
+  }
+  
+  .search-bar button:hover {
+    background-color: #eee; /* Set a darker gray background color on hover */
+  }
+  
+  .search-bar button i {
+    font-size: 1.2rem; /* Increase the font size of the search icon */
+    color: #666; /* Set a dark gray color for the search icon */
+  }
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .video-item {
+    background-color: #202020;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .video-item img {
+    width: 100%;
+    display: block;
+  }
+  .video-item .video-info {
+    padding: 10px;
+  }
+  .video-item .video-info h4 {
+    margin: 0;
+    font-size: 14px;
+  }
+  .video-item .video-info p {
+    margin: 5px 0 0;
+    font-size: 12px;
+    color: #aaa;
+  }
